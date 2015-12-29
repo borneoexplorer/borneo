@@ -10,6 +10,6 @@ setInterval(function () {
     seconds_left = seconds_left % 3600;     
     minutes = parseInt(seconds_left / 60);
     seconds = parseInt(seconds_left % 60);
-  countdown.innerHTML = days + " <span class=\'putih\'>hari</span> " + hours + " <span class=\'putih\'>jam</span> "
-  + minutes + " <span class=\'putih\'>menit</span> " + seconds + " <span class=\'putih\'>detik menuju</span> 2016";   
+  countdown.innerHTML = days + " <span class=\'hitam\'>hari</span> " + hours + " <span class=\'hitam\'>jam</span> "
+  + minutes + " <span class=\'hitam\'>menit</span> " + seconds + " <span class=\'hitam\'>detik menuju</span> 2016";   
 }, 1000);
